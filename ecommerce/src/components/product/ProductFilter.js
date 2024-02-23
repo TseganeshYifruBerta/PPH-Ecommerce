@@ -55,11 +55,11 @@ const ProductFiltering = () => {
             </div>
             <div className="mb-2">
               <div>
-                <input
+                {/* <input
                   type="checkbox"
                   checked={latest}
                   onClick={() => setLatest(!latest)}
-                />
+                /> */}
                 Delivery
               </div>
               Shipping

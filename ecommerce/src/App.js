@@ -1,6 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
-import styles from "./index.css";
 import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
 import ProductList from "./components/product/ProductList";

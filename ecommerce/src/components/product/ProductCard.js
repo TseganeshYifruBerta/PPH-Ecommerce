@@ -4,19 +4,19 @@
 const ProductCard = () => {
   return (
     <div class="sm:w-1/4 w-1/3 bg-white border border-gray-200 rounded-lg shadow m-2">
-      <a href="#">
+      <button>
         <img
           className="p-8 rounded-t-lg"
           src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MT613ref_VW_34FR+watch-49-titanium-ultra2_VW_34FR+watch-face-49-trail-ultra2_VW_34FR?wid=2000&hei=2000&fmt=png-alpha&.v=1694507270905"
-          alt="product image"
+          alt="product"
         />
-      </a>
+      </button>
       <div class="px-5 pb-5">
-        <a href="#">
+        <button>
           <h5 class=" font-semibold tracking-tight text-gray-900">
             Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
           </h5>
-        </a>
+        </button>
         <div class="flex items-center mt-2.5 mb-5">
           <div class="flex items-center space-x-1 rtl:space-x-reverse">
             <svg
@@ -75,30 +75,6 @@ const ProductCard = () => {
         </div>
       </div>
     </div>
-    // <div class="m-2 relative flex max-w-[12rem] w-1/4 flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-    //   <div class="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
-    //     <img
-    //       src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MT613ref_VW_34FR+watch-49-titanium-ultra2_VW_34FR+watch-face-49-trail-ultra2_VW_34FR?wid=2000&hei=2000&fmt=png-alpha&.v=1694507270905"
-    //       alt="watch"
-    //     />
-    //   </div>
-    //   <div class="p-6">
-    //     <h4 class="block font-sans antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-    //       Watch Iphone
-    //     </h4>
-    //     <p class="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700"></p>
-    //   </div>
-    //   <div class="flex items-center justify-between p-6">
-    //     <div class="flex items-center -space-x-3 justify-end">
-    //       <button className="px-4 w-full bg-primary rounded-lg py-1 justify-end hover:bg-green-700">
-    //         + Cart
-    //       </button>
-    //     </div>
-    //     {/* <p class="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
-    //       January 10
-    //     </p> */}
-    //   </div>
-    // </div>
   );
 };
 
